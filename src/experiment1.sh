@@ -6,7 +6,6 @@ TRACE_FILE="../test/traces/gcc_trace.txt"
 
 # Output files
 OUTPUT_CSV="experiment_results.csv"
-OUTPUT_TXT="experiment_results.txt"
 
 # Write header to CSV file
 echo "log2(L1_SIZE),L1_SIZE (Bytes),Associativity,L1_miss_rate" > $OUTPUT_CSV

@@ -100,12 +100,12 @@ int main (int argc, char *argv[]) {
    //       printf("Error: Unknown request type %c.\n", rw);
 	//  exit(EXIT_FAILURE);
    //    }
-      
+   
 
       L1.request(addr, rw); 
    }
    // --------- Print final stats ---------- //
-
+      
    L1.print_cache_stats();
    if(L2 != NULL) { (*L2).print_cache_stats(); }
    if(L1.prefetch_enabled){ L1.printStreamBuffer(); }
